@@ -1,0 +1,35 @@
+{
+    "name": "nightjar-profanity",
+    "version": "1.0.0",
+    "description": "Swearword detection and replacement library",
+    "main": "index.js",
+    "scripts": {
+        "test": "Mocha test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nightjar-io/nightjar-profanity.git"
+    },
+    "keywords": [
+        "profanity",
+        "swearword",
+        "swear-word",
+        "word",
+        "swear",
+        "swearing",
+        "curse",
+        "obscenity",
+        "expletive",
+        "cussword",
+        "profanity"
+    ],
+    "author": "Jack Prosser <info@twicely.com>",
+    "license": "The MIT License (MIT)",
+    "bugs": {
+        "url": "https://github.com/nightjar-io/nightjar-profanity/issues"
+    },
+    "homepage": "https://github.com/nightjar-io",
+    "dependencies": {
+        "mocha": "^3.4.2"
+    }
+}
