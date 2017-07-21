@@ -6,7 +6,7 @@ We try keep the list of swearwords updated, so if you have any suggestions, plea
 
 ## Installation
 
-    npm install --save nightjar-profanity
+    npm install --save @nightjar-io/nightjar-profanity
     
 ## Usage
 
