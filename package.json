@@ -1,6 +1,6 @@
 {
     "name": "@nightjar-io/nightjar-profanity",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Swearword detection and replacement library",
     "main": "index.js",
     "scripts": {
