@@ -37,3 +37,19 @@ If you want to use your own list of words, you can load in a list of words in an
     profanity.checkText('You are a bastard.'); // false
     
 Probably not that useful for words like happy. Useful, if we don't have a list of words in this library.
+
+### profanity.censorText(text, replace[string|array])
+
+Censor text with the default * character.
+
+    var profanity = require('nightjar-profanity');
+    profanity.censorText('You are a bastard and sometimes shit. Basically an asshole.'); // 'You are a b*****d and sometimes s**t. Basically an a*****e.'
+    
+If you want to use your own chacter, such as a dot, then you add a replace string.
+
+    profanity.censorText('You are a bastard and sometimes shit. Basically an asshole.', '.'); // 'You are a b.....d and sometimes s..t. Basically an a.....e.'
+    
+If you'd like to use a range of characters, to give that censored swearword feel, you can supply an array instead of a string.
+
+    profanity.censorText('You are a bastard and sometimes shit. Basically a motherfucker.', ['@','#','&','$','!']); // 'You are a b@#&$!d and sometimes s@#t. Basically a m@#&$!@#&$!r.'
+
